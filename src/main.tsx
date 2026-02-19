@@ -7,17 +7,10 @@ import './clases/objetos.ts'
 import './clases/funciones.ts'
 
 import './clases/import.ts'
-import Bancos from './Bancos.tsx'
-import BancosFiltrado from './clases/Lab1/BancosFiltrado.tsx'
-import HolaMundo from './clases/Lab1/HolaMundo.tsx'
-import Contador from './clases/Lab1/Contador.tsx'
-
+import { CustomHook } from './clases/Lab2/CustomHook';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Bancos />
-    <HolaMundo />
-    <Contador />
-    <BancosFiltrado />
+    <CustomHook />
   </StrictMode>,
 )

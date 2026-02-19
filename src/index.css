@@ -66,3 +66,66 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Components styling (flat, no gradients) */
+.card-component {
+  max-width: 520px;
+  margin: 1.25rem auto;
+  background-color: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  text-align: left;
+}
+.card-header {
+  margin-bottom: 0.6rem;
+}
+.card-title {
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.2px;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+.card-images {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+.card-placeholder {
+  color: #bbb;
+  padding: 1rem;
+}
+
+.loading-root {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.loading-box {
+  background-color: rgba(255,255,255,0.03);
+  color: #ddd;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.controls {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
